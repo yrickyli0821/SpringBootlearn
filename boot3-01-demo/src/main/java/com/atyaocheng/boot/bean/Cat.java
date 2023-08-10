@@ -1,5 +1,8 @@
 package com.atyaocheng.boot.bean;
 
+import lombok.Data;
+
+@Data
 public class Cat {
     public Long getId() {
         return id;
